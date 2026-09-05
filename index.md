@@ -20,7 +20,7 @@ Vehicle data maintenance under a 2-hour window, error-prone and invisible until 
 
 [Read the case study →](works/01-ai-enablement-case-study.md)
 
-### 2. Prompt Specification — Entry #1: DCM Workflow
+### 2. Prompt Specification — Entry #1: Data-File Workflow
 A conversational instruction iterated into a governed specification: role & context, strict task decomposition, output contract with status enum, only-allowed transformations, never-invent guard, self-verification checklist. Versioned v1 → v2 → v3, each driven by a real failure mode found in use.
 
 [Read the prompt spec →](works/02-prompt-spec-entry-01.md)
