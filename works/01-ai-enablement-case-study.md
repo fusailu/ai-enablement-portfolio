@@ -2,7 +2,7 @@
 ---
 
 # From Manual Bottleneck to Repeatable AI Workflow
-*Vehicle Data Maintenance at ARRK Engineering (automotive OEM projects)*
+*Vehicle Data Maintenance at an Automotive OEM — Engineering Services (case anonymized)*
 
 **TL;DR** — A manual data-maintenance task, executed under a 2-hour window and prone to errors that surfaced only at the next release, was turned into a repeatable Copilot-powered workflow: **zero manual errors across 9 consecutive deliveries, ~60% time reduction, documented and handed over to colleagues.** The key was not the AI — it was finding the right bottleneck, encoding domain rules into the prompt, and building a verification loop.
 

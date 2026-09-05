@@ -5,7 +5,7 @@
 
 *Industrial engineer & data management professional turning manual bottlenecks into governed, repeatable AI workflows — and enabling others to do the same.*
 
-**Currently:** Data Management Engineer, ARRK Engineering (automotive OEM projects), Munich
+**Currently:** Data Management Engineer, Munich — automotive OEM engineering services (employer name available on request)
 **Focus:** AI enablement · prompt specification · RAG · agentic workflows · AI governance
 **Contact:** [LinkedIn](https://linkedin.com/in/fusailu)
 
