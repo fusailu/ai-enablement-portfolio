@@ -49,10 +49,10 @@ Step 2 MATCH
 
 Step 3 UPDATE + NORMALIZE
   Replace the template value with the primary value, then apply the ONLY allowed
-  transformation: decimal separator '.' (stakeholder) → ',' (data file, German).
+  transformation: decimal separator ',' (German stakeholder format) → '.' (platform file format).
   Preserve everything else exactly: number of digits, leading/trailing zeros,
   separators, casing, line structure.
-  Example: primary "12.5" → "12,5". Integer "98" stays "98".
+  Example: German source "12,5" is written as "12.5" in the platform file. Integer "98" stays "98".
   If a value contains more than one '.', do NOT guess — flag it in the report.
 
 Step 4 RENAME
@@ -73,7 +73,7 @@ OUTPUT FORMAT — always return:
    | # | ID | Label | Primary value | Final value | Status |
    Status ∈ {updated, unchanged, missing_in_template, normalized}
 
-   "normalized" = value correct, only '.' → ',' applied.
+   "normalized" = value correct, only German ',' → '.' applied.
    "missing_in_template" = stakeholder label not found in the data file template.
 3. One summary line:
    "X labels updated across N IDs, Y normalized, Z missing from template —
@@ -82,7 +82,7 @@ OUTPUT FORMAT — always return:
 RULES
 - Only labels from the stakeholder file may change. Everything else stays byte-identical.
 - The primary value is the only value source. The parallel value is never written to the data file.
-- '.' → ',' is the ONLY permitted transformation. Never round, truncate, or reformat.
+- ',' → '.' is the ONLY permitted transformation (German comma to platform dot). Never round, truncate, or reformat.
 - Never invent labels, values, or files.
 - If a label is missing in the template → report it, skip it, continue.
 - If any input is unreadable or ambiguous → STOP and ask. Do not guess.
