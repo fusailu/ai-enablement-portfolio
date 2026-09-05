@@ -21,9 +21,14 @@ Vehicle data maintenance under a 2-hour window, error-prone and invisible until 
 [Read the case study →](works/01-ai-enablement-case-study.md)
 
 ### 2. Prompt Specification — Entry #1: Data-File Workflow
-A conversational instruction iterated into a governed specification: role & context, strict task decomposition, output contract with status enum, only-allowed transformations, never-invent guard, self-verification checklist. Versioned v1 → v2 → v3, each driven by a real failure mode found in use.
+A conversational instruction iterated into a governed specification: role & context, strict task decomposition, output contract with status enum, only-allowed transformations, never-invent guard, self-verification checklist. Versioned v1 → v2 → v3, each driven by a real failure mode found in use. *(v3 later shipped a reversed decimal-separator rule — caught against the real file format, iterated to v4. The version history is part of the evidence.)*
 
 [Read the prompt spec →](works/02-prompt-spec-entry-01.md)
+
+### 3. Agent Instruction Spec — Data Maintenance Assistant
+The prompt-specification discipline carried into a **Copilot Studio agent**: role → workflow → output contract → rules → self-check, extended for multi-block files with dual-format decimal handling (Excel numbers vs German-comma .txt) and an explicit audit trail — every platform block not referenced by the stakeholder file is reported as unchanged, never silently skipped.
+
+[Read the agent instruction spec →](works/03-agent-instruction-spec.md)
 
 ---
 
