@@ -3,6 +3,8 @@
 
 # Entry #1 — Data-File Batch Update + Deviation Report
 
+*File extensions and internal labels are anonymized (shown as `.dat`, "primary/parallel value"); the actual platform format is not disclosed. All logic is unchanged.*
+
 Status: **Final v4** (2026-09-05). v3 passed 3 historical-batch tests in Aug 2026; the v3 decimal-separator direction was later found reversed against the real file format and corrected in v4.
 
 ## Metadata
