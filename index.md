@@ -25,6 +25,11 @@ A conversational instruction iterated into a governed specification: role & cont
 
 [Read the prompt spec & agent application →](works/02-prompt-spec-entry-01.md)
 
+### 3. Apartment Hunt Monitor — Personal Automation Agent *(fun project)*
+A scheduled agent that watches a classifieds platform and pushes only-new listings to WhatsApp every morning — with configurable location/budget/unit-type/swap criteria, incremental state, noise filtering, and failure-safe delivery. A personal project showing the same *monitor-and-alert* pattern used in price watching and compliance monitoring.
+
+[Read the apartment monitor →](works/03-apartment-hunt-monitor.md)
+
 ---
 
 ## What I bring
