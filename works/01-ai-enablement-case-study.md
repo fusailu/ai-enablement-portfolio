@@ -35,7 +35,7 @@ Each version was driven by a real failure or constraint found in use — **the p
 - Zero manual errors across 9 consecutive deliveries
 - ~60% reduction in working time for this task
 - The task stopped being a bottleneck in the tight maintenance window
-- Process standardized in an SOP; 2 colleagues coached to run the workflow independently
+- Process standardized in an SOP; 3 colleagues coached to run the workflow independently
 
 ## 6. Beyond the tool
 The tool was the easy part. The durable value: an SOP, trained colleagues, a workflow that no longer depends on one person. **The capability outlives the builder.**
