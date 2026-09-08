@@ -14,9 +14,9 @@
 ## Selected Work
 
 ### 1. From Manual Bottleneck to Repeatable AI Workflow — Case Study
-Vehicle data maintenance under a 2-hour window, error-prone and invisible until the next release, rebuilt as a Copilot-powered workflow with encoded domain rules and a verification loop.
+Vehicle data maintenance under a 2-hour window, error-prone and invisible until the next release, rebuilt as a repeatable AI-assisted workflow with encoded domain rules and a verification loop. *(Customer-sensitive: tool specifics and data handling are confidential and not described; the methodology is shown in full.)*
 
-**Results:** zero manual errors across 9 consecutive deliveries · ~60% time reduction · SOP + 2 colleagues coached to run it independently
+**Results:** zero manual errors across 9 consecutive deliveries · ~60% time reduction · SOP + colleagues coached to run it independently
 
 [Read the case study →](works/01-ai-enablement-case-study.md)
 
