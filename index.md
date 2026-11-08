@@ -14,7 +14,7 @@
 ## Selected Work
 
 ### 1. From Manual Data Verification to an Automated Deviation Report — Case Study
-Verifying structured engineering data before a code freeze was error-prone and squeezed into a 2-hour window. I specified the comparison rules and built a small tool (Python and PowerShell) — developed with Copilot in Visual Studio Code as a coding assistant — that diffs the target file against stakeholder inputs (.txt / Excel) and returns a deviation report a human reviews. The AI assisted the **code**, never the data: everything ran locally on my machine, and the data files, Excel inputs and deviation reports never left it.
+Verifying structured engineering data before a code freeze was error-prone and squeezed into a 2-hour window. I specified the comparison rules and built a small tool (Python and PowerShell) — developed with Copilot in Visual Studio Code as a coding assistant — that diffs the target file against stakeholder inputs (.txt / Excel) and returns a deviation report for human review. The AI assisted the **code**, never the data: everything ran locally on my machine, and the data files, Excel inputs and deviation reports never left it.
 
 **Results:** 83% reduction in working time · zero errors in the following 4 cycles · SOP + colleagues coached to run it independently
 
